@@ -34,7 +34,7 @@ h2 {
     line-height: 36px;
 }
 
-button {
+.btn contact-me {
     font-family: var(--primary-color);
     font-weight: 500;
     font-size: 18px;
