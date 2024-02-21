@@ -39,8 +39,8 @@ button {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    background-color: var(--button-pri-color);
-    color: var(--button-sec-color);
+    color: var(--button-pri-color);
+    background-color: var(--button-sec-color);
     border-radius: 4px;
     padding: 18px 30px;
 }
