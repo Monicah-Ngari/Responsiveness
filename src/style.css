@@ -33,6 +33,7 @@
     font-weight: 400px;
     font-size: 24px;
     line-height: 36px;
+    color: var(--button-pri-color)
 }
 
 .contact-me {
