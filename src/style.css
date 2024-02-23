@@ -12,6 +12,8 @@
     background-image: url('/images/music.jpeg');
     text-align: center;
     padding: 160px 20px;
+    background-size: cover;
+    background-position: center;
 }
 
 .about-me p {
