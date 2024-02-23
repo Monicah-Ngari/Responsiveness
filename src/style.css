@@ -79,6 +79,7 @@ img {
     line-height: 27px;
     color: var(--button-pri-color);
     background-color: var(--button-sec-color);
+    border: 1px solid var(--button-sec-color);
     border-radius: 4px;
     padding: 18px 30px;
 }
