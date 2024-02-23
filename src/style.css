@@ -74,11 +74,11 @@ img {
 
 .music-link {
     font-family: var(--button-sec-color);
-    font-weight: 500;
+    font-weight: 300;
     font-size: 18px;
     line-height: 27px;
     color: var(--button-pri-color);
-    background-color: var(--primary-color);
+    background-color: var(--button-sec-color);
     border-radius: 4px;
     padding: 18px 30px;
 }
