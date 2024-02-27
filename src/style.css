@@ -9,7 +9,7 @@
 }
 
 .about-me {
-    background-image: url('/images/music.jpeg');
+    background-image: url('../images/music.jpeg');
     text-align: center;
     padding: 160px 20px;
     background-size: cover;
@@ -60,7 +60,6 @@ h2 {
 }
 
 img {
-    width: 300px;
     height: auto;
 }
 
@@ -94,7 +93,7 @@ img {
 }
 
 @media (max-width: 900px) {
-    h1 {
+    .about-me h1 {
         font-size: 44px;
         line-height: 2;
     }
