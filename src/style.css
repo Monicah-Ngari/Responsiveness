@@ -25,6 +25,10 @@
     color: var(--primary-color);
 }
 
+.about-section {
+    margin-top: 45px;
+    padding: 160px 20px;
+}
 
 .about-me h1 {
     font-family: var(--secondary-font);
@@ -33,7 +37,7 @@
     color: var(--button-pri-color)
 }
 
-.about-section h1 {
+.about-section-content h1 {
     font-size: 18px;
     font-family: var(--primary-font);
 }
@@ -46,13 +50,13 @@
     color: var(--button-pri-color)
 }
 
-.about-section h2 {
+.about-section-content h2 {
     font-size: 64px;
-    line-height: 1.5;
+    line-height: 80px;
 }
 
 .about-section-content {
-    padding: 160px 20px;
+    margin: 30px;
 
 }
 
