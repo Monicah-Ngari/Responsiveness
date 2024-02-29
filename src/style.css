@@ -108,15 +108,13 @@ img {
 
 .about-section a {
     font-family: var(--button-sec-color);
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
     color: var(--button-pri-color);
     background-color: var(--button-sec-color);
     border: 1px solid var(--button-sec-color);
     border-radius: 4px;
-    padding: 18px 30px;
-    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
 
 .music-link {
@@ -143,6 +141,11 @@ img {
 
     .about-me {
         padding: 80px 20px;
+    }
+
+    .about-section {
+        text-align: center;
+        padding: 0;
     }
 
     img {
