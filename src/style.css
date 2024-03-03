@@ -37,7 +37,7 @@
     color: var(--button-pri-color)
 }
 
-.about-section-content h1 {
+.content h1 {
     font-size: 18px;
     font-family: var(--primary-font);
 }
@@ -50,12 +50,12 @@
     color: var(--button-pri-color)
 }
 
-.about-section-content h2 {
+.content h2 {
     font-size: 64px;
     line-height: 80px;
 }
 
-.about-section-content {
+.content {
     margin: 30px;
 
 }
@@ -106,7 +106,11 @@ img {
     padding: 120px 60px;
 }
 
-.about-section a {
+.content-container {
+    padding: 120px 60px;
+}
+
+.content-container a {
     font-family: var(--button-sec-color);
     color: var(--button-pri-color);
     background-color: var(--button-sec-color);
@@ -143,14 +147,10 @@ img {
         padding: 80px 20px;
     }
 
-    .about-section {
+    .content-container {
         text-align: center;
         padding: 0;
     }
-
-    /* img {
-        display: none
-    } */
 
     .project-desciption {
         padding: 0;
