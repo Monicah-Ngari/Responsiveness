@@ -138,6 +138,11 @@ img {
     padding: 18px 30px;
 }
 
+.music-links {
+    text-decoration: underline;
+    color: var(--button-sec-color);
+}
+
 @media (max-width: 900px) {
     .about-me h1 {
         font-size: 44px;
