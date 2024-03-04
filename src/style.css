@@ -83,6 +83,13 @@ h3 {
     font-family: var(--primary-font);
 }
 
+.content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: var(--primary-font);
+}
+
 .my-portfolio {
     text-align: center;
     padding: 160px 20px;
@@ -115,7 +122,7 @@ img {
     padding: 120px 60px;
 }
 
-.content-container a {
+.my-website-link {
     font-family: var(--button-sec-color);
     color: var(--button-pri-color);
     background-color: var(--button-sec-color);
