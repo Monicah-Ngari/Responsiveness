@@ -154,6 +154,22 @@ img {
     max-height: 40px;
 }
 
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
 @media (max-width: 900px) {
     .about-me h1 {
         font-size: 44px;
