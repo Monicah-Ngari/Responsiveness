@@ -150,6 +150,10 @@ img {
     color: var(--button-sec-color);
 }
 
+.logo {
+    max-height: 40px;
+}
+
 @media (max-width: 900px) {
     .about-me h1 {
         font-size: 44px;
