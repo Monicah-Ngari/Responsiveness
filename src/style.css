@@ -154,12 +154,15 @@ img {
     width: 60px;
     height: 60px;
     object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 nav {
     position: absolute;
     top: 20px;
-    right: 20px;
+    left: 100px;
 }
 
 nav ul {
@@ -183,7 +186,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--button-sec-color)
+    color: var(--secondary-color)
 }
 
 @media (max-width: 900px) {
