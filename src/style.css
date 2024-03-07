@@ -147,12 +147,12 @@ img {
 
 .music-links {
     text-decoration: underline;
-    color: var(--button-sec-color);
+    color: var(--button-pri-color);
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
 }
 
@@ -178,7 +178,7 @@ nav li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
     font-size: 1.2rem;
 }
 
