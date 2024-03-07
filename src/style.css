@@ -155,7 +155,9 @@ img {
 }
 
 nav {
-    padding: 20px 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 nav ul {
@@ -168,6 +170,18 @@ nav li {
     list-style: none;
     line-height: 42px;
     margin-left: 15px;
+    /* display: inline-block;
+            margin-right: 20px; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: var(--button-sec-color)
 }
 
 @media (max-width: 900px) {
