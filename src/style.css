@@ -157,7 +157,7 @@ img {
 }
 
 nav {
-    padding: 20px 0;
+    position: absolute;
     top: 20px;
     right: 20px;
 }
@@ -165,7 +165,6 @@ nav {
 nav ul {
     padding: 0;
     margin: 0;
-    ;
 }
 
 nav li {
@@ -173,16 +172,17 @@ nav li {
     list-style: none;
     line-height: 42px;
     margin-left: 15px;
+    /* display: inline-block;
+            margin-right: 20px; */
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
     color: var(--primary-color);
     font-size: 1.2rem;
 }
 
-nav a:hover,
-nav li.active a {
+nav ul li a:hover {
     color: var(--secondary-color)
 }
 
