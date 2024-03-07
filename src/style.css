@@ -155,7 +155,6 @@ img {
     height: 60px;
     object-fit: cover;
     position: absolute;
-    top: 20px;
     left: 20px;
 }
 
@@ -163,6 +162,11 @@ nav {
     position: absolute;
     top: 20px;
     right: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 nav ul {
