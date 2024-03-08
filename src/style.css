@@ -152,8 +152,8 @@ img {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     margin-left: 20px;
 }
@@ -184,8 +184,9 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-nav ul li a:hover {
-    color: var(--button-pri-color)
+nav a:hover,
+nav li.active a {
+    color: var(--button-sec-color);
 }
 
 @media (max-width: 900px) {
