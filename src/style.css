@@ -148,14 +148,14 @@ img {
 
 .music-links {
     text-decoration: underline;
-    color: var(--button-pri-color);
+    color: var(--button-sec-color);
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 nav {
@@ -165,7 +165,7 @@ nav {
 }
 
 nav ul {
-    padding: 15px;
+    padding: 12px;
     margin: 0;
 }
 
@@ -174,8 +174,6 @@ nav li {
     list-style: none;
     line-height: 42px;
     margin-left: 15px;
-    /* display: inline-block;
-            margin-right: 20px; */
 }
 
 nav ul li a {
@@ -184,8 +182,11 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-nav a:hover,
-nav li.active a {
+nav a:hover {
+    color: var(--button-sec-color)
+}
+
+nav ul li a.active {
     color: var(--button-sec-color);
 }
 
@@ -211,5 +212,9 @@ nav li.active a {
     .project-desciption {
         padding: 0;
         text-align: center;
+    }
+
+    nav ul li a {
+        padding: 30px;
     }
 }
