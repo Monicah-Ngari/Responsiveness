@@ -6,6 +6,7 @@
     --secondary-color: #000000;
     --button-pri-color: #FFFFFF;
     --button-sec-color: #6C63FF;
+    --nude-color: #F9F7FE;
 }
 
 .logo {
@@ -193,9 +194,17 @@ footer {
     margin: 60px 0;
 }
 
+footer .contact-box h4 {
+    font-size: 48px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
 footer .contact-box {
-    background-color: var(--button-pri-color);
-    padding: 30px;
+    background-color: var(--nude-color);
+    padding: 30px 120px;
     border-radius: 10px;
 }
 
@@ -210,25 +219,23 @@ footer .email-link:hover {
     color: var(--button-sec-color);
 }
 
-footer .social-links {
-    font-size: 15px;
+footer .social-links a {
+    font-size: 20px;
     margin: 0 20px;
     color: var(--button-sec-color);
-    background-color: var(--button-pri-color);
+    background-color: var(--nude-color);
     padding: 12px 16px;
     border-radius: 50%;
     transition: all 60ms ease-in-out;
 
 }
 
-footer .social-link a:hover {
+footer .social-links a:hover {
     color: white;
-    background-color: var(--button-pri-color);
+    background-color: var(--button-sec-color);
 }
 
-footer h4 {
-    font-size: 44px;
-}
+
 
 
 
