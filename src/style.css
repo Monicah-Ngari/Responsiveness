@@ -8,6 +8,44 @@
     --button-sec-color: #6C63FF;
 }
 
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-left: 40px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+nav ul {
+    padding: 12px;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: var(--button-sec-color)
+}
+
+nav ul li a.active {
+    color: var(--button-sec-color);
+}
 
 .about-me {
     /* background-image: url('../images/music.jpeg'); */
@@ -151,44 +189,50 @@ img {
     color: var(--button-sec-color);
 }
 
-.logo {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    margin-left: 40px;
+footer {
+    margin: 60px 0;
 }
 
-nav {
-    position: absolute;
-    top: 20px;
-    left: 0;
+footer .contact-box {
+    background-color: var(--button-pri-color);
+    padding: 30px;
+    border-radius: 10px;
 }
 
-nav ul {
-    padding: 12px;
-    margin: 0;
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
-}
-
-nav ul li a {
+footer .email-link {
     text-decoration: none;
-    color: var(--secondary-color);
-    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-size: 24px;
+    text-align: center;
 }
 
-nav a:hover {
-    color: var(--button-sec-color)
-}
-
-nav ul li a.active {
+footer .email-link:hover {
     color: var(--button-sec-color);
 }
+
+footer .social-links {
+    font-size: 15px;
+    margin: 0 20px;
+    color: var(--button-sec-color);
+    background-color: var(--button-pri-color);
+    padding: 12px 16px;
+    border-radius: 50%;
+    transition: all 60ms ease-in-out;
+
+}
+
+footer .social-link a:hover {
+    color: white;
+    background-color: var(--button-pri-color);
+}
+
+footer h4 {
+    font-size: 44px;
+}
+
+
+
+
 
 @media (max-width: 900px) {
     .about-me h1 {
