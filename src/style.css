@@ -262,13 +262,14 @@ footer .social-links a:hover {
         text-align: center;
     }
 
-
     .music-website {
-        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    nav ul li a {
-        /* padding: 10px; */
-        margin-bottom: 30px
-    }
+
+
+    /* nav ul li a {
+        padding: 10px;
+
+    } */
 }
