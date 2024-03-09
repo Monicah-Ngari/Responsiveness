@@ -49,12 +49,9 @@ nav ul li a.active {
 }
 
 .about-me {
-    /* background-image: url('../images/music.jpeg'); */
     text-align: center;
     padding: 160px 20px;
 
-    /* background-size: cover;
-    background-position: center; */
 }
 
 
@@ -252,7 +249,7 @@ footer .social-links a:hover {
     }
 
     .about-me {
-        padding: 80px 20px;
+        padding: 240px 20px 80px 20px;
     }
 
     .content-container {
