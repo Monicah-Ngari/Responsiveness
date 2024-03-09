@@ -263,6 +263,7 @@ footer .social-links a:hover {
     }
 
     nav ul li a {
-        padding: 30px;
+        padding: 10px;
+        margin-bottom: 20px
     }
 }
