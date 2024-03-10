@@ -268,6 +268,9 @@ footer .social-links a:hover {
     }
 
 
-
+    .favourite-image {
+        width: 80px;
+        height: 80px
+    }
 
 }
